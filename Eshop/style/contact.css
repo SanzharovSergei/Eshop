@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+    height: 100%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+header {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+header div {
+    padding-top: 63px;
+}
+header ul {
+    float: right;
+}
+li {
+    list-style-type: none;
+    float: left;
+}
+li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+}
+li a:hover {
+    color: #212121;
+    font-weight: 700;
+}
+header div:last-child {
+    padding-top: 176px;
+}
+header div:last-child h2 {
+    font-size: 62px;
+    color: #212121;
+    font-weight: 100;
+}
+
+main {
+    height: 563px;
+    padding-left: 98px;
+    padding-right: 98px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main div {
+    height: 370px;
+    text-align: center;
+    border: #9c9c9c 1px solid;
+    margin-top: 71px;
+    width: 370px;
+}
+main div img {
+    margin-top: 48px;
+}
+main div h1 {
+    margin-top: 30px;
+    margin-bottom: 23px;
+}
+main div h6 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+main div p {
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 7px;
+}
+span {
+    color: #6c6c6c;
+}
+
+
+footer {
+    background-color: #f7f7f7;
+    margin: -200px auto 0;
+    width: 1366px;
+}
+.footer-up {
+    height: 330px;
+    display: flex;
+}
+.contact {
+    margin-left: 99px;
+    margin-top: 120px;
+}
+.contact h2 {
+    color: #6c6c6c;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+    width: 221px;
+    margin-top: 24px;
+}
+.information {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+.information h2 {
+    color: #6c6c6c;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.information div {
+    display: flex;
+    margin-top: 12px;
+    width: 422px;
+}
+.information div div {
+    display: flex;
+    flex-direction: column;
+}
+.information div div a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.86;
+}
+.subscribe {
+    margin-top: 120px;
+    margin-left: 78px;
+}
+.subscribe h2 {
+    color: #6c6c6c;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.subscribe p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    width: 363px;
+    margin-top: 24px;
+}
+.subscribe input {
+    width: 370px;
+    height: 48px;
+    margin-top: 26px;
+    border: solid 1px #d9dee1;
+    background-image: url(../img/send_icon.png);
+    background-repeat: no-repeat;
+    background-position: 330px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.footer-down {
+    width: 1366px;
+    padding-bottom: 38px;
+}
+.footer-down p {
+    color: #6c6c6c;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer-down p:first-child {
+    padding-left: 97px;
+    float: left;
+}
+.footer-down p:last-child {
+    float: right;
+    padding-right: 97px;
+}
+.copy-footer {
+    height: 200px;
+}
+
